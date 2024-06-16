@@ -15,8 +15,8 @@
 - Secondly, the approach to process each file containing daily vessel data from December 1, 2021, to December 31, 2021:
   - Each csv file is extracted to a temporary directory;
   - Each file is processed using the previously discussed function;
-  - The results of each day clossest vessels and they trajectories are collected into one dataframe for further analysis.
-- Thirdly, the result is processed and we find the most clossests vessel pair when comparing clossest vessel pairs from each day.
+  - The results of each day clossest vessels and their trajectories are collected into one dataframe for further analysis.
+- Thirdly, the result is processed and we find the most clossest vessel pair when comparing clossest vessel pairs from each day.
 - Finally, the trajectory of the clossest vessels is visualized.
 
 **The result:**
