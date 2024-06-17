@@ -117,10 +117,8 @@ csv_files = [os.path.join(temp_dir, f) for f in os.listdir(temp_dir) if f.endswi
 result_df = None
 
 for file in csv_files:
-    df = spark.read.csv(file, header=True, inferSchema=True)
-
     # Process day file
-    processed_df = process_day_file(df)
+    processed_df = process_day_file(file)
 
     # Collect the results
     if result_df is None:
