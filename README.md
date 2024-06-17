@@ -11,7 +11,7 @@ To find the two closest moving vessels in a particular sea area and visualize th
     - Ensures logical values for Latitude and Longitude;
   - Performs Data Processing:
     - Finds all vessels in the area where the circle center coordinate is Latitude: 55.225000, Longitude: 14.245000;
-    - Find the clossest two vessels in the desired area;
+    - Finds the clossest two vessels in the desired area;
     - Collects the information about each vessels trajectory 10 minutes before the rendezvous time and 10 after;
 - Secondly, the approach to process each file containing daily vessel data from December 1, 2021, to December 31, 2021:
   - Each csv file is extracted to a temporary directory;
