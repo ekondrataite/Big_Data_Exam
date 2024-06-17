@@ -22,3 +22,5 @@ To find the two closest moving vessels in a particular sea area and visualize th
 
 ## **The result**
 The clossests vessels were **266334000** and **265388000**. The day on which they were clossest is **December 13, 2021**.
+
+To see the result follow this link: https://rawcdn.githack.com/ekondrataite/Big_Data_Exam/90149c520f407f17ed832de97973356c519acadb/result_of_vessels_trajectories.html
