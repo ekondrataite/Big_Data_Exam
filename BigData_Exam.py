@@ -1,3 +1,4 @@
+"""
 # Environment
 """
 from pyspark.sql.types import FloatType
@@ -16,7 +17,9 @@ import tempfile
 # Create a SparkSession
 spark = SparkSession.builder.appName("Big Data Exam").master("local[*]").getOrCreate()
 
-"""# Task"""
+"""
+# Task
+"""
 
 # Haversine distance function
 def haversine(lat1, lon1, lat2, lon2):
