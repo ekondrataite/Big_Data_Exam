@@ -1,8 +1,9 @@
 # Big Data Exam Task
 
-**The objective:** To find the two closest moving vessels in a particular sea area and visualize their trajectory from 10 minutes before rendezvous time to 10 minutes after.
+## **The objective:** 
+To find the two closest moving vessels in a particular sea area and visualize their trajectory from 10 minutes before rendezvous time to 10 minutes after.
 
-**Subtasks to complete the objective:**
+## **Subtasks to complete the objective:**
 - To complete this task Python and PySpark were used.
 - Firstly, a function to process each day csv file was created. It does the following:
   - Performs Data Preparation:
@@ -19,5 +20,5 @@
 - Thirdly, the result is processed and we find the most clossest vessel pair when comparing clossest vessel pairs from each day.
 - Finally, the trajectory of the clossest vessels is visualized.
 
-**The result:**
+## **The result:**
 The clossests vessels were ** ** and ** **. The day on which they were clossest is ** **.
